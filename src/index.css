@@ -28,3 +28,7 @@ code {
   position: fixed;
   left: 70px;
 }
+.blogPostHome{
+  width: 1440px;
+  height: 600px;
+}

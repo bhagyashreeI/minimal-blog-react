@@ -10,6 +10,8 @@ import authorImg1 from "./Images/authorImg1.jpg"
 import authorImg2 from "./Images/authorImg2.jpg"
 import authorImg3 from "./Images/authorImg3.jpg"
 import authorImg4 from "./Images/authorImg4.jpg"
+import BlogPost from './BlogPost';
+import blogPost1 from "./Images/blogPost1.jpg"
 import Footer from './Footer';
 const Body = () => {
     const categories = ["All","Adventure","Fashion"]
@@ -67,6 +69,7 @@ const Body = () => {
                
                 
             </Box>
+            <BlogPost blogImg={blogPost1} category='Fashion' postedOn='08.08.2021' />
             <Footer/>
             
         </>
