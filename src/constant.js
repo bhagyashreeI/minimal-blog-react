@@ -1,0 +1,1 @@
+export const sliderFiles = ["https://c4.wallpaperflare.com/wallpaper/650/2/541/asian-babes-brunette-dress-wallpaper-preview.jpg", "https://c0.wallpaperflare.com/preview/395/164/853/travel-millenial-random-group.jpg", "https://cf.ltkcdn.net/family/images/orig/308600-2121x1414-woman-and-hot-air-ballons.jpg"];

@@ -28,6 +28,12 @@ code {
   position: fixed;
   left: 70px;
 }
+.img-inline {
+  display:inline !important
+}
+.img-hide {
+  display:none !important
+}
 .blogPostHome{
   width: 1440px;
   height: 600px;
