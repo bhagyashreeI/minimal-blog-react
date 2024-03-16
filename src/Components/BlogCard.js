@@ -10,12 +10,12 @@ const BlogCard = (props) => {
     return <Card sx={{ maxWidth: 310 }}>
         <div style={{ position: "relative" }}>
           <CardMedia style={{ height: 280, width: 310 }} image={props.blogImg} />
-          <div style={{ position: "absolute", color: "white", top: 10, right: "10px", background: "#C4C4C4", padding: "5px", fontSize: "0.6rem" }}>
+          <div className="blogCategrory">
             {props.category.toUpperCase()}
           </div>
         </div>
         <CardContent sx={{ borderBottom: "1px solid #ccc", height: 200 }}>
-          <span style={{ color: "#6C757D", fontSize: "12px", lineHeight: "15px" }}>
+          <span className="dateCls" >
             {props.postedOn}
           </span>
           <Typography gutterBottom variant="h5" component="div">

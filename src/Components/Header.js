@@ -22,13 +22,13 @@ const Header = () =>{
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Mininal Blogs
             </Typography>
-            <Button className="linkSize" size="small" fontSize="small" sx={{ mr: 2 }} color="inherit" component={Link} to={"/logout"}>
+            <Button className="linkSize" size="small" fontSize="small" sx={{ mr: 2 }} color="inherit" component={Link} to={"/"}>
               Home
             </Button>
-            <Button className="linkSize" sx={{ mr: 2 }} color="inherit" component={Link} to={"/logout"}>
+            <Button className="linkSize" sx={{ mr: 2 }} color="inherit" component={Link} to={"/about-us"}>
               About
             </Button>
-            <Button className="linkSize" sx sx={{ mr: 2 }} color="inherit" component={Link} to={"/logout"}>
+            <Button className="linkSize" sx sx={{ mr: 2 }} color="inherit" component={Link} to={"/contact-us"}>
               Contact Us
             </Button>
           </Toolbar>

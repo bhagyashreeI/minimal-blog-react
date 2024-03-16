@@ -5,8 +5,8 @@ import { Typography } from '@mui/material';
 
 const Footer = () =>{
 
-    return <div style={{ display: "flex", background: "#212529", color: "#fff", padding: "20px" }}>
-        <div style={{ flexGrow: 1 }}>
+    return <div className="footer-section">
+        <div className="flexGrw">
           <Typography color="#fff" variant="h6" gutterBottom>
             Contact the Publisher
           </Typography>
@@ -17,11 +17,11 @@ const Footer = () =>{
             +944 450 904 505
           </Typography>
         </div>
-        <div style={{ flexGrow: 1 }}>
+        <div className="flexGrw">
           <Typography color="#fff" variant="h6" gutterBottom>
             Explorate
           </Typography>
-          <ul   style={{ listStyle: "none", fontSize: "12px",color:"#E5E5E5", padding: "0px" }}>
+          <ul style={{ listStyle: "none", fontSize: "12px", color: "#E5E5E5", padding: "0px" }}>
             <li>About</li>
             <li>Partners</li>
             <li>Job Opportunities</li>
@@ -29,7 +29,7 @@ const Footer = () =>{
             <li>Membership</li>
           </ul>
         </div>
-        <div style={{ flexGrow: 1 }}>
+        <div className="flexGrw">
           <Typography color="#fff" variant="h6" gutterBottom>
             Headquarter
           </Typography>

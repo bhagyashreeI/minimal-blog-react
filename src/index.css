@@ -14,7 +14,7 @@ code {
 
 .banner {
   width: 1440px;
-  height: 300px;
+  height: 400px;
   left: 0px;
   top: 0px;
 }
@@ -37,4 +37,47 @@ code {
 .blogPostHome{
   width: 1440px;
   height: 600px;
+}
+.footer-section{
+  display: flex;
+  background:#212529;
+  color: #fff;
+  padding: 20px;
+  
+}
+.flexGrw{
+  flex:1
+}
+.blogCategrory {
+    position: absolute;
+    color: #fff; 
+    top: 10px;
+     right: 10px;
+      background: #C4C4C4;padding: 5px; font-size: 0.6rem
+  
+}
+.blogPostInfo {
+  position: absolute;
+  color: #fff;
+  top: 30%;
+  right: 30%;
+  text-align:center
+}
+
+.dateCls{
+  color: #6C757D;
+  font-size: 12px;
+  line-height: 15px;
+}
+.date2Cls{
+  color: #fff;
+  font-size: 12px;
+}
+.categoriesTab{
+      margin-right: 30px;
+       color:#495057 !important;
+        font-weight:bold !important;
+}
+.categoriesTab.active{
+  text-decoration:underline
 }
