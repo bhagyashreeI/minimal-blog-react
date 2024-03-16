@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter,Outlet,RouterProvider } from 'react-router-dom';
 import Body from './Components/Body';
+import ErrorPage from "./Components/ErrorPage";
 
 const AppLayout = () => {
   return (
@@ -22,7 +23,8 @@ const routerConfig = createBrowserRouter([
       path:"/",
       element:<Body/>
     }
-  ]
+  ],
+  errorElement: <ErrorPage />,
 }
 ])
 
